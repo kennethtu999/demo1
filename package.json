@@ -1,0 +1,31 @@
+{
+  "name": "webpack5-vue3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve"
+  },
+  "author": "cristian",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.12.16",
+    "@vue/compiler-sfc": "^3.0.5",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.1",
+    "less": "^4.1.1",
+    "less-loader": "^8.0.0",
+    "loader-utils": "^2.0.0",
+    "vue": "^3.0.5",
+    "vue-style-loader": "^4.1.2",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "devDependencies": {
+    "vue-loader": "^16.1.2"
+  },
+  "keywords": []
+}

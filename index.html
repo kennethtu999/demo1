@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.0.5/vue.global.js"></script>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.0.5/vue.global.js" id="external-js"></script>
+</head>
+  <body>
+    <script>
+      const app = Vue.createApp({});
+    </script>
+    <script
+      type="application/javascript"
+      src="global_component_bundled.js"
+    ></script>
+
+    <div id="app">
+      <global-component></global-component>
+    </div>
+  </body>
+</html>
+
+<script>
+  app.mount("#app");
+</script>
